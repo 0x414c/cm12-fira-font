@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.mozilla.font.firasans"
+        minSdkVersion 21
+        targetSdkVersion 21
+        maxSdkVersion 23
+        versionCode 4
+        versionName "4.106.1"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
