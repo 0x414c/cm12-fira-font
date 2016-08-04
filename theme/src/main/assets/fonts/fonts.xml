@@ -20,33 +20,38 @@ paired with the 500 weight, ensuring adequate contrast.
 <familyset version="22">
 
     <!--
-    Common weight name mapping
+    NOTE: Common weight name mapping:
     The 100 to 900 values roughly correspond to the following common weight names:
-    100 - Thin (Hairline); 200 - Extra Light (Ultra Light); 300 - Light;
-    400 - Normal; 500 - Medium; 600 - Semi Bold (Demi Bold); 700 - Bold;
-    800 - Extra Bold (Ultra Bold); 900 - Black (Heavy).
+    100 - Thin (Hairline);
+    200 - Extra Light (Ultra Light);
+    300 - Light;
+    400 - Normal; ***
+    500 - Medium;
+    600 - Semi Bold (Demi Bold);
+    700 - Bold; ***
+    800 - Extra Bold (Ultra Bold);
+    900 - Black (Heavy).
     -->
 
     <!-- first font is default -->
     <family name="sans-serif">
         <font weight="100" style="normal">FiraSans-Thin.ttf</font>
         <font weight="100" style="italic">FiraSans-ThinItalic.ttf</font>
-        <font weight="200" style="normal">FiraSans-ExtraLight.ttf</font>
-        <font weight="200" style="italic">FiraSans-ExtraLightItalic.ttf</font>
+
         <font weight="300" style="normal">FiraSans-Light.ttf</font>
         <font weight="300" style="italic">FiraSans-LightItalic.ttf</font>
+
         <font weight="400" style="normal">FiraSans-Regular.ttf</font>
         <font weight="400" style="italic">FiraSans-Italic.ttf</font>
+
         <font weight="500" style="normal">FiraSans-Medium.ttf</font>
         <font weight="500" style="italic">FiraSans-MediumItalic.ttf</font>
-        <font weight="600" style="normal">FiraSans-SemiBold.ttf</font>
-        <font weight="600" style="italic">FiraSans-SemiBoldItalic.ttf</font>
-        <font weight="700" style="normal">FiraSans-Bold.ttf</font>
-        <font weight="700" style="italic">FiraSans-BoldItalic.ttf</font>
-        <font weight="800" style="normal">FiraSans-ExtraBold.ttf</font>
-        <font weight="800" style="italic">FiraSans-ExtraBoldItalic.ttf</font>
+
         <font weight="900" style="normal">FiraSans-Heavy.ttf</font>
         <font weight="900" style="italic">FiraSans-HeavyItalic.ttf</font>
+
+        <font weight="700" style="normal">FiraSans-Bold.ttf</font>
+        <font weight="700" style="italic">FiraSans-BoldItalic.ttf</font>
     </family>
 
     <!-- Note that aliases must come after the fonts they reference. -->
@@ -62,8 +67,10 @@ paired with the 500 weight, ensuring adequate contrast.
     <family name="sans-serif-condensed">
         <font weight="300" style="normal">FiraSansCondensed-Light.ttf</font>
         <font weight="300" style="italic">FiraSansCondensed-LightItalic.ttf</font>
+
         <font weight="400" style="normal">FiraSansCondensed-Regular.ttf</font>
         <font weight="400" style="italic">FiraSansCondensed-Italic.ttf</font>
+
         <font weight="700" style="normal">FiraSansCondensed-Bold.ttf</font>
         <font weight="700" style="italic">FiraSansCondensed-BoldItalic.ttf</font>
     </family>
@@ -72,7 +79,7 @@ paired with the 500 weight, ensuring adequate contrast.
 
     <family name="monospace">
         <font weight="400" style="normal">FiraMono-Regular.ttf</font>
-        <font weight="500" style="normal">FiraMono-Medium.ttf</font>
+
         <font weight="700" style="normal">FiraMono-Bold.ttf</font>
     </family>
 
